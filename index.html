@@ -41,48 +41,89 @@
   </head>
 
   <body>
-    <!-- Creating overall grid -->
-
+    <!-- Creating First Container for Header&Navigation links -->
     <div class="container">
       <!-- Start of row 1 which contains Header & Navbar -->
-      <div class="row">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light row navbar-width"
+      >
         <!-- Start of header column -->
-        <header class="col-md-4">
-          <h2>Stephany Adela Lopez</h2>
-        </header>
+        <a class="navbar-brand col-md-4" id="mheader">Stephany Adela Lopez</a>
         <!-- End of Header column -->
 
-        <!-- start of navbar column -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light col-md-8">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <!-- button/link section -->
-              <a class="nav-item nav-link active" href="./index.html"
-                >About <span class="sr-only">(current)</span></a
-              >
-              <a class="nav-item nav-link active" href="./portfolio.html"
-                >Portfolio</a
-              >
-              <a class="nav-item nav-link active" href="./contact.html"
-                >Contact</a
-              >
-            </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Start of navbar button/link column -->
+        <div class="collapse navbar-collapse col-md-8" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <!-- button/link section -->
+            <a class="nav-item nav-link active" href="./index.html"
+              >About <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link active" href="./portfolio.html"
+              >Portfolio</a
+            >
+            <a class="nav-item nav-link active" href="./contact.html"
+              >Contact</a
+            >
           </div>
-        </nav>
+        </div>
         <!-- End of navbar column -->
-      </div>
+      </nav>
       <!-- End of row 1 -->
+    </div>
+
+    <div class="container container-AboutMe">
+      <div class="row row-align">
+        <h4>About Me</h4>
+        <hr />
+        <div class="row">
+          <div class="col">
+            <img
+              src="./Assets/Images/Selfie_ProfessionalSteph.jpg"
+              alt="Selfie_ProfessionalSteph"
+            />
+            <p>
+              I am a customer support services specialist II for the Customer
+              Support Department at SoCal Gas. My speciality is assisting
+              customers make their homes energy effiecient as possible by
+              offering the various programs we have. I enjoy learning new things
+              and I love playing video games. I have one dog named Lecherito and
+              one cat named Mini Lolis but everyone calls her Mina.
+
+              <br />
+              <p>  I am from southern Los Angeles, CA and have lived here my whole
+              life. I love to experiment with cooking. I enjoy playing video
+              games, especially League of Legends. My favorite champion to play
+              depends on my current mood. I will play Leona if I feel confident
+              and assertive or Nami if I feel like taking it easy and enjoy the
+              moment. I also love to read a lot of crime solving mystery books.
+              Currently I am enjoying Robert Dugoni's Tracy Crosswhite series.</p>
+            
+            </p>
+          </div>
+        </div>
+        <p>
+          The reason for me taking a coding bootcamp is because I think it is a
+          great skill to have if I decide to do independent work or start a
+          business of my own. Another reason is because I have recently
+          rediscovered my love for working with software development. At my
+          current job I enjoy being on the computers creating/improving new
+          softwares in order to make business operations more efficient. It will
+          also make me stand out in my department and will help me switch into
+          the Software Enhancement teams.
+        </p>
+      </div>
     </div>
   </body>
 </html>
