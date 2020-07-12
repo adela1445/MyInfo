@@ -1,7 +1,12 @@
 body {
   box-sizing: border-box;
+  background-color: mediumaquamarine;
 }
 
 header {
   background-color: palevioletred;
+  color: aliceblue;
+  font-family: "Fondamento", cursive;
+  padding: 30px;
+  text-align: center;
 }

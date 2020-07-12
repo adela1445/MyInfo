@@ -43,10 +43,46 @@
   <body>
     <!-- Creating overall grid -->
 
-    <div class="container"></div>
-    <!-- Row 1 which contains header -->
-    <header>
-      <h2>Stephany Adela Lopez</h2>
-    </header>
+    <div class="container">
+      <!-- Start of row 1 which contains Header & Navbar -->
+      <div class="row">
+        <!-- Start of header column -->
+        <header class="col-md-4">
+          <h2>Stephany Adela Lopez</h2>
+        </header>
+        <!-- End of Header column -->
+
+        <!-- start of navbar column -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light col-md-8">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <!-- button/link section -->
+              <a class="nav-item nav-link active" href="./index.html"
+                >About <span class="sr-only">(current)</span></a
+              >
+              <a class="nav-item nav-link active" href="./portfolio.html"
+                >Portfolio</a
+              >
+              <a class="nav-item nav-link active" href="./contact.html"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </nav>
+        <!-- End of navbar column -->
+      </div>
+      <!-- End of row 1 -->
+    </div>
   </body>
 </html>
