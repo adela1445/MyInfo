@@ -11,8 +11,17 @@ body {
   background-color: palevioletred;
   color: aliceblue;
   font-family: "Fondamento", cursive;
+  font-weight: bolder;
+  font-size: 30px;
   padding: 1rem;
   text-align: center;
+}
+#nav-style {
+  font-family: "Sahitya", serif;
+  color: gray;
+  font-size: large;
+  background-color: paleturquoise;
+  margin-right: 1rem;
 }
 hr {
   width: 100%;
