@@ -4,6 +4,7 @@ body {
 }
 
 /* Styling for Row1 */
+
 .navbar-width {
   padding: unset;
 }
@@ -15,12 +16,13 @@ body {
   font-size: 30px;
   padding: 1rem;
   text-align: center;
+  margin-left: 5%;
 }
 #nav-style {
   font-family: "Sahitya", serif;
-  color: gray;
+  color: white;
   font-size: large;
-  background-color: paleturquoise;
+  background-color: mediumaquamarine;
   margin-right: 1rem;
 }
 hr {
@@ -30,8 +32,10 @@ hr {
 }
 /* Styling for Container 2 */
 .container-Portfolio {
+  float: left;
   background-color: rgb(252, 252, 252);
   margin-top: 30px;
+  margin-left: 5%;
   font-family: "Fondamento", cursive;
   color: palevioletred;
 }
