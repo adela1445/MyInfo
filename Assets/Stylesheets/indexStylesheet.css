@@ -58,6 +58,15 @@ p {
   color: gray;
 }
 
+footer {
+  float: left;
+  text-align: center;
+  background-color: lavender;
+  padding: 1%;
+  border-top-style: solid;
+  border-top-color: palevioletred;
+  border-top-width: 1rem;
+}
 /* @Media Queries  */
 
 /* The screen turns mediumaquamarine if the width is less than 640px */

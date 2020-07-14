@@ -45,8 +45,17 @@ hr {
   padding-top: 30px;
 }
 
-footer {
+.submit-button {
   margin-bottom: 20px;
   padding-top: none;
   padding-bottom: 30px;
+}
+footer {
+  float: left;
+  text-align: center;
+  background-color: lavender;
+  padding: 1%;
+  border-top-style: solid;
+  border-top-color: palevioletred;
+  border-top-width: 1rem;
 }
