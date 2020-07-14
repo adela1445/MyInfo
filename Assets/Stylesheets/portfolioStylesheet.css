@@ -54,3 +54,25 @@ footer {
   border-top-color: palevioletred;
   border-top-width: 1rem;
 }
+
+/* @Media Queries  */
+
+/* The screen turns mediumaquamarine if the width is less than 640px */
+@media screen and (max-width: 640px) {
+  body {
+    background-color: mediumaquamarine;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: rgb(102, 190, 205);
+  }
+}
+
+/* The screen turns mediumaquamarine if the width is 980px and greater */
+@media screen and (min-width: 980px) {
+  body {
+    background-color: mediumaquamarine;
+  }
+}
