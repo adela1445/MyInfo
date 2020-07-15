@@ -18,6 +18,10 @@ body {
   text-align: center;
   margin-left: 5%;
 }
+.nav-position {
+  position: absolute;
+  right: 10px;
+}
 #nav-style {
   font-family: "Sahitya", serif;
   color: white;

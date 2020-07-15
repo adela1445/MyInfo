@@ -18,12 +18,18 @@ body {
   text-align: center;
   margin-left: 5%;
 }
+.nav-position {
+  position: absolute;
+  right: 10px;
+}
 #nav-style {
   font-family: "Sahitya", serif;
   color: white;
   font-size: large;
   background-color: mediumaquamarine;
   margin-right: 1rem;
+  position: relative;
+  right: 10px;
 }
 hr {
   width: 100%;
@@ -38,6 +44,7 @@ hr {
   margin-left: 5%;
   font-family: "Fondamento", cursive;
   color: palevioletred;
+  margin-bottom: 70px;
 }
 .row-align {
   margin-left: 20px;
