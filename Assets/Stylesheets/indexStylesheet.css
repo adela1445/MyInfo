@@ -70,6 +70,8 @@ footer {
   border-top-style: solid;
   border-top-color: palevioletred;
   border-top-width: 1rem;
+  position: fixed;
+  bottom: 0px;
 }
 /* @Media Queries  */
 
